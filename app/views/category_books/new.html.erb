@@ -1,0 +1,11 @@
+<% content_for :title, "New category book" %>
+
+<h1>New category book</h1>
+
+<%= render "form", category_book: @category_book %>
+
+<br>
+
+<div>
+  <%= link_to "Back to category books", category_books_path %>
+</div>

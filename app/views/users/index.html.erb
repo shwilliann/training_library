@@ -1,0 +1,26 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Users" %>
+
+<div class="imagem_ibc">
+  <%= image_tag "logomarca-ibc.png", class: "logo" %>
+  </div>
+
+<div class="backfundo">
+<div class="header"> 
+<h1>usuários</h1>
+</div>
+
+<div>
+  <% @users.each do |user| %>
+
+  <div class="user_card">
+    <%= render user %>
+    <p class="button_link"><%= link_to "Ver usuário", user, class: "botao" %></p>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to "New user", new_user_path %>
+
+</div>

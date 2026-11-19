@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @category_book %>
+
+<div>
+  <%= link_to "Edit this category book", edit_category_book_path(@category_book) %> |
+  <%= link_to "Back to category books", category_books_path %>
+
+  <%= button_to "Destroy this category book", @category_book, method: :delete %>
+</div>

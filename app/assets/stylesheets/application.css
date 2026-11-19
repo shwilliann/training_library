@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+.imagem_ibc {
+    background-color: blueviolet;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.header {
+    font-size: 60px;
+    background-color: cyan;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    width: 80%;
+    text-align: center;
+    border:  5px solid black;
+    border-radius: 76px;
+}
+
+.backfundo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_card {
+    background-color: rgb(206, 206, 216);
+    border: 3px solid rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px 0 0;
+}
+
+.button_link {
+    border: 4px double rgb(145, 145, 145);
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgb(251, 251, 252);
+}
